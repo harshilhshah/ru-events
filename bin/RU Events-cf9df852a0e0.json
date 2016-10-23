@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ru-events-60adb",
+  "private_key_id": "cf9df852a0e0e31511278996836b933d93d21f04",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHwtKEYYBCbQi4\npxiNoC0enkISgGyhOSIhDKVUUgegbru6ncgxci3Pm+s+ED9diSORs4SwjFQVCB0e\nXu1wMAUDCuwid+ji2P3EcMAc7d+8JkQWtKPC8JXCO832UhqKhVVtYXRH6bbbOFuH\nFcsEwFeyD16famjPAqOhz0nJB5d4zmAsumpRlQx82riifWqrqgIhn3amPUvfcga9\nnSMjrERUM03aUz5sjDVHUCITO4bR0Onvq2YSL10xvaQapMip432jRCsJJLdBkz4E\ncvmZSRH885F4ZBQWfjqOxF8OgIcgBT4RAY+WvXhGkcJOu1PsVcWC9JYkVNawk3oV\nBMNVkBYPAgMBAAECggEAKAMO9bMt5KBAWfQmR9/oibR7WYdduuFdw67rwrr3ihwE\nADowai8LnAUIFpNcjdi1Ri7mChLhmKDabEXpW0pTBqv+Zl0MSbvbAKjw4hqHcQFd\nLAscriRQaupds9P4OvzAAru9ddYLaVedha5IzvfT2PeZJWdD/QrzSarihaC+p1Sb\n2bEo6GPJ/1Qwi4p5MKL+9Ik33bmzNB+Mo8YMTjh9oo3dxSYDTP+gjdBT56yVwIHf\nCuihD/FZ3R31XecWqraNVcBylC5MeS2AUrgb+QLfh/4yy4Zn3sELLVByPRAe2m57\nMw/CHiw2MH7OYkrGLrCd0e6hNawjbiImgMXvl1jJyQKBgQD+RyqxLIMcqenRJXk8\nEHygr+6Kaoy/gdv1LAPzwOoJYF0pE7RGYWJ9X69tGpB338gfK85L4qMo9jKnVv4Z\nTQby1tZLeQw8pTmg+z68Uzs+V2Whlj8tUckYNiv/Yjrsf9D6WwXTUzdi8sxxGpvF\nrFHqcyhidyzbbYSJE/BFjI+WTQKBgQDJHSQtvDv+n6DQF2lh0NK0jOSJQz7Ltfkf\ncp26O7hYfy+/gLYW2zCheBltsTk81NP4cUysLzpC44jpJe5mx+wLkB1JEyZo88vs\nU3Bej5Qp+9XsGvzqQY9IVB39PMrrfSwjsqY8bk3kPzdJu4Vnfa8DUnwp62spxLbl\n3sSQ3zUDywKBgQC4ULvYe6x6TYvoB6LOcCD2lTBy8vMdKjNXj1U6Dj9XFpvQ17CY\nR6UNvhs6GcRYsESum6FJDno4ieWDuSItEtGTmzjwski1eQrB7vy1pBtQgCdyLqeS\n4TLEMxhHYVvW7Ht9zhb17N88AUVCQwhhDBzAtkKyxTIlyEgG2QYUU+QNDQKBgFj4\nlGXLTXtSoTEN+mf0mxKW9g+neSNj6Mc5zH90JhS4h6Yfye6In5X/bLhzW9AGk5Po\ng7P03MB0qsACMNq1fT6MTfhjCW4K1N9C9oZO3IxKRhRCyDrWMA4ecHn0qAzP/nP4\nd8RqQ/lC4jGzTMxA9OjyV82vwWPkC8nb6Hfy1yBLAoGAJa17qBWvknzClF+lKROQ\nby+eWljdykKpdWrfwXVQzu/RAcBV2TCh15HULRfcH/2XuaNMjRIB0cXUqNloqh+w\nMfStak8P4E0GZVtbDGkF1yuQxFSfY4fSAWPxtWt2oa3u8FhQT1OwEirsERiWjeK9\nKxRGynv6H7XQRZrhUKR/bHU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "harshil-shah@ru-events-60adb.iam.gserviceaccount.com",
+  "client_id": "112986019649835473094",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/harshil-shah%40ru-events-60adb.iam.gserviceaccount.com"
+}

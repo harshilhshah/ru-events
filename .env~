@@ -1,0 +1,2 @@
+TIMES=2
+DATABASE_URL='postgres://fngkpvveeczpfo:AdvdIpBYELNdb2Hgm5L4RcJoV0@ec2-54-225-64-254.compute-1.amazonaws.com:5432/dcpnjqo0f2kulr'

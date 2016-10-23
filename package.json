@@ -10,8 +10,11 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "dotenv": "^2.0.0",
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "firebase": "3.5.1",
+    "pg": "^6.1.0"
   },
   "repository": {
     "type": "git",

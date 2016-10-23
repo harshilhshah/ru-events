@@ -1,8 +1,48 @@
 #!/usr/bin/env node
 
-function sayHello() {
-  console.log('Hello');
-}
-sayHello();
-process.exit();
+var FB = require('fb');
+var pg = require('pg');
+var dotenv = require('dotenv');
 
+var events = [];
+
+FB.setAccessToken('953304084727879|79JvOKz7P44_-2t2bNNoZo0Bw2s');
+dotenv.load();
+
+FB.api('RUPAPresents/events?fields=name,description,start_time,end_time,place,cover{source}', function (res) {
+
+	if(!res || res.error) {
+		console.log(!res ? 'error occurred' : res.error);
+		return;
+	}
+
+	for(var i = 0; i < res.data.length; i++){
+		var eve = res.data[i];
+		var place = "";
+  		if(eve.place !== undefined) {
+  			place = eve.place.name;
+  		}else{
+  			place = "Rutgers";
+  		}
+  		events.push([eve.name,eve.id, eve.cover.source,eve.description, eve.start_time, eve.end_time,place]);
+  	}
+
+
+  	pg.connect(process.env.DATABASE_URL, function(err, client, done) {
+  var handleError = function(err) {
+    if(!err) return false;
+    done(client);
+    next(err);
+    return true;
+  };
+
+	client.query("DELETE FROM events");
+	for(var i = 0; i < events.length; i++){
+  		client.query('INSERT INTO events(name,id,img_url,description,start_time,end_time,location) VALUES($1,$2,$3,$4,$5,$6,$7)', [events[i][0],events[i][1],events[i][2],events[i][3],events[i][4],events[i][5],events[i][6]]);
+  	}
+	});
+
+  	console.log("Done.");
+  	//process.exit();
+
+});
